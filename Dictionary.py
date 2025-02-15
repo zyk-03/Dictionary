@@ -1,0 +1,35 @@
+DATA = {
+    "ALTERNATOR":"An electromechanical device that converts mechanical energy into electrical energy in the form of alternating current.",
+    "AMPERE":"The SI base unit of electric current.",
+    "ARMATURE":"The part of a machine which receives or delivers active power to the external electrical system.",
+    "CAPACITANCE":"The amount of electrical energy stored for a given electric potential.",
+    "CIRCUIT":"A complete circular path in which electricity flows through.",
+    "EFFICIENCY":"The ratio of output power to input power of a device.",
+    "GENERATOR":"A rotating electric machine used to transform mechanical energy into electric energy.",
+    "HERTZ":"The SI derived unit for frequency defined as the number of cycles per second of a periodic function.",
+    "HORSEPOWER":"A unit of power. 1 hp = 746 W",
+    "IMPEDANCE":"The ratio of the voltage to the electric current, a measure of opposition to time-varying electric current in an electric circuit.",
+    "INDUCTANCE":"A property in an electric circuit where a change in the current induces an electromotive force that opposes the change in current.",
+    "INSULATION":"The materials and parts used to insulate conductive elements of a machine.",
+    "INVERTER":"A converter that changes direct electric current to single-phase or poly-phase alternating currents.",
+    "MOTOR":"A machine which converts electrical energy into mechanical energy.",
+    "NEWTON":"The force required to accelerate a mass of one kilogram at a rate of one meter per second per second.",
+    "POLES":"Magnetic poles created in a machine by windings.",
+    "POWER":"The rate at which work is performed.",
+    "REACTANCE":"The resistance to AC current due to capacitance or inductance.",
+    "REGULATION":"The amount of speed or voltage change due to load variations.",
+    "RELUCTANCE":"The 'resistance' of a magnetic circuit.",
+    "RESISTANCE":"Defined as the ratio of voltage to current.",
+    "SIGNAL":"An electromagnetic or electrical current that carries data from one system or network to another.",
+    "SKEW":"A non-parallel stator and rotor slot alignment.",
+    "SLIP":"The difference between the synchronous speed and the actual speed of a rotor expressed as a percentage of the synchronous speed.",
+    "SLOT":"A recess in a core in which the conductors of a winding may be placed.",
+    "SPECTRUM":"The intensity of light as it varies with wavelength or frequency.",
+    "TOLERANCE":"The permitted deviation between the declared value of a quantity and the measured value.",
+    "TORQUE":"The rotational force produced by a motor.",
+    "WATT":"The SI unit of power.",
+    "YOKE":"Part of a device, composed of magnetic material, and intended to complete a magnetic circuit."
+    }
+
+a = input("Please enter an engineering term to define: ")
+print(DATA[a])
